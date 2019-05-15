@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateDeleteActivity">
+
+    <EditText
+        android:id="@+id/etEmpID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter employee no"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+
+        />
+
+
+    <EditText
+        android:id="@+id/etEmpName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter employee no"
+        />
+
+    <EditText
+        android:id="@+id/etEmpSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter employee no"
+        />
+    <EditText
+        android:id="@+id/etEmpAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter employee no"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+        android:layout_margin="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        android:layout_margin="20dp"
+
+
+        />
+
+</LinearLayout>
